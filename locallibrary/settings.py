@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '5@glf%!k4e4c))1w!z&(w5rnnf)@f+
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
 # Set hosts to allow any app on Heroku and the local testing URL
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['local-library-21.herokuapp.com', '127.0.0.1']
 
 
 
